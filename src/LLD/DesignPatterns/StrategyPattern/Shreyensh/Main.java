@@ -1,4 +1,5 @@
-package LLD.DesignPatterns.StrategyPattern;
+package LLD.DesignPatterns.StrategyPattern.Shreyensh;
+
 
 public class Main {
 

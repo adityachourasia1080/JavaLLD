@@ -1,4 +1,4 @@
-package LLD.DesignPatterns.StrategyPattern.Strategy;
+package LLD.DesignPatterns.StrategyPattern.Shreyensh.Strategy;
 
 public class SportsDrivingCapability implements DriveStrategy {
 

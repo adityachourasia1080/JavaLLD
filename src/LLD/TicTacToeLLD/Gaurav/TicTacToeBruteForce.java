@@ -1,4 +1,4 @@
-package LLD.TicTacToeLLD;
+package LLD.TicTacToeLLD.Gaurav;
 
 //Gaurav sen Interview ready
 //TicTacToe is a 2 player game on n*n matric

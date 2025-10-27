@@ -1,6 +1,6 @@
-package LLD.DesignPatterns.StrategyPattern;
+package LLD.DesignPatterns.StrategyPattern.Shreyensh;
 
-import LLD.DesignPatterns.StrategyPattern.Strategy.DriveStrategy;
+import LLD.DesignPatterns.StrategyPattern.Shreyensh.Strategy.DriveStrategy;
 
 public class Vehicle {
 
