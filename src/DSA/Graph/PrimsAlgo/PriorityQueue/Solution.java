@@ -1,4 +1,4 @@
-package DSA.Graph.PrimsAlgo;
+package DSA.Graph.PrimsAlgo.PriorityQueue;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
@@ -35,6 +35,7 @@ class Solution {
 
         @SuppressWarnings("unchecked")
         ArrayList<pair> adj[]= new ArrayList[V];
+        // Here we can use ArrayList<ArrayList<Integer>>adj   it will not give any warnings
         for (int i = 0; i < V; i++) {
             adj[i] = new ArrayList<>();
         }
