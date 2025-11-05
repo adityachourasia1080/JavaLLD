@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.StopSuspendDeprecated;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.StopSuspendDeprecated;
 
 public class SharedResource {
 

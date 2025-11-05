@@ -1,4 +1,4 @@
-package JavaLearning.Thread.ReentrantLock;
+package JavaLearning.Thread.PessimisticLocks.ReentrantLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,7 +14,7 @@ public class SharedResource {
             Thread.sleep(4000);
         }
         catch (Exception e){}
-        finally{
+        finally{ // make sure lok is always release
             lock.unlock();
             System.out.println("Lock Release by :"+ Thread.currentThread().getName());
 

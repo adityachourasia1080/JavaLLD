@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.addConsumeBasic;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.addConsumeBasic;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.ProducerConsumerQueue;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.ProducerConsumerQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

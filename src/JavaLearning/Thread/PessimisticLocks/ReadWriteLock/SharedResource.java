@@ -1,4 +1,4 @@
-package JavaLearning.Thread.ReadWriteLock;
+package JavaLearning.Thread.PessimisticLocks.ReadWriteLock;
 
 import java.util.concurrent.locks.ReadWriteLock;
 

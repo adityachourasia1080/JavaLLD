@@ -1,4 +1,4 @@
-package JavaLearning.Thread.ReentrantLock;
+package JavaLearning.Thread.PessimisticLocks.ReentrantLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.ProducerConsumer;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.ProducerConsumer;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

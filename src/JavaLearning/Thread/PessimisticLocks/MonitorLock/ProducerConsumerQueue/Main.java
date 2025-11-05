@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.ProducerConsumerQueue;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.ProducerConsumerQueue;
 
 public class Main {
 

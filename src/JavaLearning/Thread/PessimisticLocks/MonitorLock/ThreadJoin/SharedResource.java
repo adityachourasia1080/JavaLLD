@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.ThreadJoin;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.ThreadJoin;
 
 public class SharedResource {
 

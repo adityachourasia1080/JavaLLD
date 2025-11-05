@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.ProducerConsumer;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.ProducerConsumer;
 
 public class ProducerConsumer {
 

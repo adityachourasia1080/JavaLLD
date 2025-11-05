@@ -1,4 +1,4 @@
-package JavaLearning.Thread.MonitorLock.addConsumeBasic;
+package JavaLearning.Thread.PessimisticLocks.MonitorLock.addConsumeBasic;
 
 public class SharedResource {
 
