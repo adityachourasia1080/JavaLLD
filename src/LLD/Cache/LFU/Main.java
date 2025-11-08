@@ -1,4 +1,4 @@
-package Cache.LFU;
+package LLD.Cache.LFU;
 
 // Main class containing the main method
 public class Main {

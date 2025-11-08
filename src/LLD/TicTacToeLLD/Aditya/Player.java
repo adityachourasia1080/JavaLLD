@@ -1,6 +1,6 @@
 package LLD.TicTacToeLLD.Aditya;
 
-public class Player {
+public class  Player {
     String userName;
     Piece Piece;
 
