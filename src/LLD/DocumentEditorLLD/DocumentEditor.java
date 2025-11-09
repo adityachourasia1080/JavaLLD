@@ -1,9 +1,9 @@
 package LLD.DocumentEditorLLD;
 
-import LLD.DocumentEditorLLD.Renderer.ImageElement;
-import LLD.DocumentEditorLLD.Renderer.NewLineElement;
-import LLD.DocumentEditorLLD.Renderer.TabSpaceElement;
-import LLD.DocumentEditorLLD.Renderer.TextElement;
+import LLD.DocumentEditorLLD.Elements.ImageElement;
+import LLD.DocumentEditorLLD.Elements.NewLineElement;
+import LLD.DocumentEditorLLD.Elements.TabSpaceElement;
+import LLD.DocumentEditorLLD.Elements.TextElement;
 import LLD.DocumentEditorLLD.Storage.Persistence;
 
 class DocumentEditor {

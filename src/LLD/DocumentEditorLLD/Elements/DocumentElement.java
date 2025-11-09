@@ -1,4 +1,4 @@
-package LLD.DocumentEditorLLD.Renderer;
+package LLD.DocumentEditorLLD.Elements;
 
 public interface DocumentElement {
     String render();

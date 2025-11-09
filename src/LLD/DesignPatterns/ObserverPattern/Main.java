@@ -17,10 +17,13 @@ public class Main {
         IphoneObservable.add(observer1);
         IphoneObservable.add(observer2);
         IphoneObservable.add(observer3);
+        System.out.println("Adding stock");
         IphoneObservable.setStockCount(4);
 
         IphoneObservable.setStockCount(6);  // no notification as prev stock is not zero
-        IphoneObservable.setStockCount(0);
+        System.out.println("Removing old stock as it is empty");
+        IphoneObservable.setStockCount(-10); //old stock was 4+6 so to make it zeo -10
+        System.out.println("Adding stock");
         IphoneObservable.setStockCount(100);  //Notification
 
     }

@@ -1,4 +1,4 @@
-package LLD.DocumentEditorLLD.Renderer;
+package LLD.DocumentEditorLLD.Elements;
 
 public class NewLineElement implements DocumentElement {
     @Override
