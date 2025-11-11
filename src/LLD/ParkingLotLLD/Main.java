@@ -24,8 +24,8 @@ public class Main {
         //psm.addParkingSpot(ps3);
         psm.addParkingSpot(ps4);
 
-        Vehicle v1= new Vehicle("MH31-1234", VehicleType.TWO_WHEELER);
-        Vehicle v2= new Vehicle("KA-31-5678",VehicleType.FOUR_WHEELER);
+        Vehicle v1= new Vehicle("MH31-RD-1234", VehicleType.TWO_WHEELER);
+        Vehicle v2= new Vehicle("KA13-EA-5678",VehicleType.FOUR_WHEELER);
 
         EntranceGate eg= new EntranceGate(psm);
 
