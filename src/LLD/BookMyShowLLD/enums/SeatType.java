@@ -1,4 +1,4 @@
-package LLD.BookMyShow.enums;
+package LLD.BookMyShowLLD.enums;
 
 public enum SeatType {
 

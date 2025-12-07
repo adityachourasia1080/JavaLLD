@@ -1,4 +1,4 @@
-package LLD.BookMyShow;
+package LLD.BookMyShowLLD;
 
 
 public class Payment {

@@ -1,6 +1,6 @@
-package LLD.BookMyShow.TheaterInfoClasses;
+package LLD.BookMyShowLLD.TheaterInfoClasses;
 
-import LLD.BookMyShow.enums.ScreenType;
+import LLD.BookMyShowLLD.enums.ScreenType;
 
 import java.util.List;
 

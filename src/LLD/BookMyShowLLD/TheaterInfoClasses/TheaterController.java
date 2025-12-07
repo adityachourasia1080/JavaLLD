@@ -1,7 +1,7 @@
-package LLD.BookMyShow.TheaterInfoClasses;
+package LLD.BookMyShowLLD.TheaterInfoClasses;
 
-import LLD.BookMyShow.enums.City;
-import LLD.BookMyShow.MovieInfoClass.Movie;
+import LLD.BookMyShowLLD.enums.City;
+import LLD.BookMyShowLLD.MovieInfoClass.Movie;
 
 import java.util.ArrayList;
 import java.util.HashMap;

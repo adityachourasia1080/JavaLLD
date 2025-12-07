@@ -1,6 +1,6 @@
-package LLD.BookMyShow.TheaterInfoClasses;
+package LLD.BookMyShowLLD.TheaterInfoClasses;
 
-import LLD.BookMyShow.enums.SeatType;
+import LLD.BookMyShowLLD.enums.SeatType;
 
 public class Seat {
 

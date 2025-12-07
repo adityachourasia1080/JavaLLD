@@ -1,11 +1,11 @@
-package LLD.BookMyShow;
+package LLD.BookMyShowLLD;
 
-import LLD.BookMyShow.MovieInfoClass.Movie;
-import LLD.BookMyShow.MovieInfoClass.MovieController;
-import LLD.BookMyShow.TheaterInfoClasses.*;
-import LLD.BookMyShow.enums.City;
-import LLD.BookMyShow.enums.ScreenType;
-import LLD.BookMyShow.enums.SeatType;
+import LLD.BookMyShowLLD.MovieInfoClass.Movie;
+import LLD.BookMyShowLLD.MovieInfoClass.MovieController;
+import LLD.BookMyShowLLD.TheaterInfoClasses.*;
+import LLD.BookMyShowLLD.enums.City;
+import LLD.BookMyShowLLD.enums.ScreenType;
+import LLD.BookMyShowLLD.enums.SeatType;
 
 import java.util.ArrayList;
 import java.util.Arrays;

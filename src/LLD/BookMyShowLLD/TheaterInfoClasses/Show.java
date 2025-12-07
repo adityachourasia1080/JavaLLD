@@ -1,6 +1,6 @@
-package LLD.BookMyShow.TheaterInfoClasses;
+package LLD.BookMyShowLLD.TheaterInfoClasses;
 
-import LLD.BookMyShow.MovieInfoClass.Movie;
+import LLD.BookMyShowLLD.MovieInfoClass.Movie;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package LLD.BookMyShow;
+package LLD.BookMyShowLLD;
 
-import LLD.BookMyShow.TheaterInfoClasses.Seat;
-import LLD.BookMyShow.TheaterInfoClasses.Show;
+import LLD.BookMyShowLLD.TheaterInfoClasses.Seat;
+import LLD.BookMyShowLLD.TheaterInfoClasses.Show;
 
 import java.util.ArrayList;
 import java.util.List;

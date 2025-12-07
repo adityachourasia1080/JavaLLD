@@ -1,4 +1,4 @@
-package LLD.BookMyShow.MovieInfoClass;
+package LLD.BookMyShowLLD.MovieInfoClass;
 
 
 public class Movie {
