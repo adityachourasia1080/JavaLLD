@@ -32,22 +32,14 @@ public class DispenseState extends VendingMachineState {
 
         } catch (InsufficientInventoryException e) {
             System.out.println("Error dispensing: " + e.getMessage());
-            try {
-                int refund = machine.getPayment().refundAll();
-                System.out.println("Refunded amount: " + refund);
-                machine.setState(new IdleState());
-            } catch (InvalidStateException ex) {
-                ex.printStackTrace();
-            }
+            int refund = machine.getPayment().refundAll();
+            System.out.println("Refunded amount: " + refund);
+            machine.setState(new IdleState());
         } catch (InsufficientPaymentException e) {
             System.out.println("Error: " + e.getMessage());
-            try {
-                int refund = machine.getPayment().refundAll();
-                System.out.println("Refunded amount: " + refund);
-                machine.setState(new IdleState());
-            } catch (InvalidStateException ex) {
-                ex.printStackTrace();
-            }
+            int refund = machine.getPayment().refundAll();
+            System.out.println("Refunded amount: " + refund);
+            machine.setState(new IdleState());
         }
     }
 
