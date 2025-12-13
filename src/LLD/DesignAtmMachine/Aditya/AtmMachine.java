@@ -8,12 +8,14 @@ import java.util.HashMap;
 public class AtmMachine {
     Double atmCash=0.0;
     public HashMap<Integer,BankAccInfo> bankAccInfoMap;
+    public HashMap<Integer,Integer>cashQuantityMap;
     AtmMachineState state;
     int cardNumber;
 
     public AtmMachine(Double cash){
         this.atmCash=cash;
         bankAccInfoMap=new HashMap<>();
+        cashQuantityMap= new HashMap<>();
 
         initilizeAtmMachine();
         this.state= new IdleState();
@@ -62,9 +64,14 @@ public class AtmMachine {
     }
 
     void initilizeAtmMachine(){
-        BankAccInfo bankAcc1=new BankAccInfo("1234567890","Aditya","HDFC","HDFC0001234",10000.0,3455);
-        BankAccInfo bankAcc2=new BankAccInfo("0987654321","Rohan","ICICI","ICICI0004321",5000.0,4556);
+        BankAccInfo bankAcc1=new BankAccInfo("1234567890","Aditya","HDFC","HDFC0001234",1000000.0,3455);
+        BankAccInfo bankAcc2=new BankAccInfo("0987654321","Rohan","ICICI","ICICI0004321",500000.0,4556);
         bankAccInfoMap.put(1234, bankAcc1);
         bankAccInfoMap.put(2345, bankAcc2);
+
+        cashQuantityMap.put(2000,20);
+        cashQuantityMap.put(500,40);
+        cashQuantityMap.put(200,60);
+        cashQuantityMap.put(100,500);
     }
 }

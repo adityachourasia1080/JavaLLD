@@ -1,6 +1,5 @@
 package JavaLearning.MultiThreading.Executor.ThreadPoolExecutor;
 
-import java.sql.SQLSyntaxErrorException;
 import java.util.concurrent.*;
 
 public class Main {
@@ -28,32 +27,6 @@ public class Main {
         }
 
         executor.shutdown();
-    }
-}
-
-
-// two way for thread Factory
-// first is Executors.defaultThreadFactory()
-// second way is below creating custom thread factory
-class CustomThreadFactory implements ThreadFactory{
-    @Override
-    public Thread newThread(Runnable r) {
-        Thread th= new Thread(r);
-        th.setPriority(Thread.NORM_PRIORITY);
-        th.setDaemon(false);
-        return th;
-    }
-}
-
-
-//two ways for reject handler
-//first is  new ThreadPoolExecutor.DiscardPolicy(), many
-//second is as below
-class CustomRejectHandler implements RejectedExecutionHandler{
-
-    @Override
-    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
-        System.out.println("Task rejected: " + r.toString());
     }
 }
 
