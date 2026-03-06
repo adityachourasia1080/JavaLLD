@@ -2,6 +2,10 @@ package JavaLearning.Streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Intermediate {
     public static void main(String[] args){
@@ -28,9 +32,30 @@ public class Intermediate {
 //        temp.forEach((Integer t)-> System.out.println(t));
 
         //find second highest no
-//        Optional<Integer> temp=numbers.stream().distinct().sorted((Integer a,Integer b)->Integer.compare(b,a)).limit(2)
+//        Optional<Integer> temp=numbers.stream().distinct().sorted((Integer a, Integer b)->Integer.compare(b,a)).limit(2)
 //                .min((Integer a,Integer b)-> Integer.compare(a,b));
 //        System.out.println(temp.get());
+
+
+        //convert int[] to ArrayList<Integer>
+//        int [] arr= new int []{12,13,14,56,78};
+//        //m1
+//        Stream<Integer> ins= Arrays.stream(arr).boxed();
+//        List<Integer> ans= ins.collect(Collectors.toList());
+//        ans.forEach((Integer a)-> System.out.println(a));
+
+//        //m2;
+//        IntStream ints = Arrays.stream(arr);
+//        ints.boxed().collect(Collectors.toList()).forEach((Integer a)-> System.out.println(a));
+
+
+
+        //find 4th highest no
+//        Optional<Integer> temp = numbers.stream()
+//                .distinct()
+//                .sorted((Integer a, Integer b) -> Integer.compare(b, a))
+//                .skip(3)
+//                .findFirst();
 
 
 

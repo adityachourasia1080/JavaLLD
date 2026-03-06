@@ -2,6 +2,7 @@ package JavaLearning.Streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class Beginner {
 
@@ -26,15 +27,17 @@ public class Beginner {
         //                     .count();
         // System.out.println("Count: " + count);
 
+
         //  Find first number greater than 10
-        // numbers.stream()
-        //        .filter(num -> num > 10)
-        //        .findFirst()
-        //        .ifPresent(System.out::println);
+//         Optional<Integer> ans= numbers.stream()
+//                .filter(num -> num > 100)
+//                .findFirst();
+//         System.out.println(ans.get());
+
 
         //  Find sum using streams
         // Optional<Integer> sum = numbers.stream()
-        //                                .reduce(Integer::sum);
+        //                                .reduce((Integer a, Integer b) -> a + b);
         // sum.ifPresent(System.out::println);
     }
 }

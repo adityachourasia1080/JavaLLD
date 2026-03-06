@@ -1,7 +1,10 @@
 package JavaLearning.Streams;
 
+import javax.swing.text.html.Option;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Advanced {
 
@@ -29,9 +32,11 @@ public class Advanced {
 //        Map<Integer, Long> freqMap = numbers.stream()
 //                .collect(Collectors.groupingBy(n -> n, Collectors.counting()));
 //
-//        Optional<Map.Entry<Integer, Long>> mostFrequent = freqMap.entrySet()
-//                .stream()
-//                .max(Map.Entry.comparingByValue());
+//        Optional<Map.Entry<Integer, Long>> mostFrequent =
+//                freqMap.entrySet()
+//                        .stream()
+//                        .max((e1, e2) -> Long.compare(e1.getValue(), e2.getValue()));
+//
 //
 //        if (mostFrequent.isPresent()) {
 //            System.out.println("Most frequent element: " + mostFrequent.get().getKey());
@@ -56,6 +61,41 @@ public class Advanced {
 //        } else {
 //            System.out.println("No even numbers found");
 //        }
+
+
+        //Find first non-repeating character in a string
+//        String str = "stress";
+//
+//        LinkedHashMap<Character, Long> freqMap1 =
+//                str.chars()
+//                        .mapToObj(c -> (char) c)
+//                        .collect(Collectors.groupingBy(
+//                                c -> c,
+//                                LinkedHashMap::new,     // preserves insertion order
+//                                Collectors.counting()
+//                        ));
+//
+//        Optional<Character> st =
+//                freqMap1.entrySet()
+//                        .stream()
+//                        .filter(e -> e.getValue() == 1)
+//                        .map(e->e.getKey())
+//                        .findFirst();
+//
+//        if (st.isPresent()) System.out.println(st.get());
+//         else System.out.println("Not found");
+
+
+        //Group strings by length
+//        List<String> temp= Arrays.asList("Aditya", "Atharva", "Aditya", "bad", "Timber", "Timber");
+//        Map<Integer,List<String>> ans= temp.stream().collect(Collectors.groupingBy(
+//                s -> s.length(),
+//                Collectors.toList()
+//        ));
+
+
+
+
 
     }
 
